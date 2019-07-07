@@ -1,3 +1,7 @@
+# The key is, the breaking point i in nums1 and the breaking point j in nums2
+# are related: j = (m + n - 2 * i) / 2. So we only need to do binary search on
+# breaking point i
+
 class Solution(object):
     def findMedianSortedArrays(self, nums1, nums2):
         """
