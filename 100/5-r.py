@@ -1,6 +1,6 @@
 # 1. Dynamic programming on reverse string is wrong: acxyzca
 # 2. Dynamic programming can be a good idea, but it's slower than simply
-# looping through each pivot and earch both sides
+# looping through each pivot and search both sides
 # 3. It seems than array is much faster than dict in Python
 
 class Solution(object):
